@@ -18,6 +18,10 @@ This model is a character-level language model based on the architecture describ
 * **Hardware Used:** NVIDIA GeForce RTX 3050 (6GB VRAM)
 * **Architecture:** NanoGPT (Decoder-only Transformer)
 
+## 📈 Training Performance
+*Validation loss dropping to 1.3034 over 5000 steps:*
+![Loss Curve](loss_curve.png)
+
 ## 📂 Files
 
 * `gpt.py`: The main script containing the Transformer architecture class, training loop, and hyperparameter configuration.
