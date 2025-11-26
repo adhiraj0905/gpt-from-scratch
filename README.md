@@ -11,14 +11,7 @@ This model is a character-level language model based on the architecture describ
 * **Positional Embeddings** & **Residual Connections**
 * **Training on Custom Datasets**
 
-## 🛠️ Tech Stack
-
-* **Language:** Python 3.13
-* **Framework:** PyTorch (GPU/CUDA version)
-* **Hardware Used:** NVIDIA GeForce RTX 3050 (6GB VRAM)
-* **Architecture:** NanoGPT (Decoder-only Transformer)
-
-## 📈 Training Performance
+### 📈 Training Performance
 *Validation loss dropping to 1.3034 over 5000 steps:*
 ![Loss Curve](loss_curve.png)
 
