@@ -30,7 +30,16 @@ This model is a character-level language model based on the architecture describ
 
 ## 🚀 How to Run
 
-### 1. Prerequisites
+### Prerequisites
 Ensure you have Python and the CUDA-enabled version of PyTorch installed:
 ```bash
 pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
+```
+To train the GPT model from scratch on the dataset (Plato's Republic):
+```bash
+python gpt.py
+```
+Once the model is trained and the .pth file is saved, you can generate new text without retraining:
+```bash
+python sample.py
+```
