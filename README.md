@@ -15,7 +15,7 @@ This model is a character-level language model based on the architecture describ
 *Validation loss dropping to 1.3034 over 5000 steps:*
 ![Loss Curve](loss_curve.png)
 
-
+## 📂 Files
 
 * `gpt.py`: The main script containing the Transformer architecture class, training loop, and hyperparameter configuration.
 * `sample.py`: An inference script that loads the saved model weights (`plato_gpt_model.pth`) and generates new text.
