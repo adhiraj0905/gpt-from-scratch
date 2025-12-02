@@ -3,7 +3,7 @@
 A decoder-only Transformer model trained from scratch on the philosophical works of Plato. This project implements a Generative Pre-trained Transformer (GPT) using PyTorch and CUDA, capable of generating original philosophical text in the style of the ancient Greek philosopher.
 Optimized hyperparameters to achieve a cross-entropy loss of 1.30 on the validation set after 5,000 training iterations.
 
-## 🧠 Project Overview
+## 
 
 This model is a character-level language model based on the architecture described in the paper *"Attention Is All You Need"* (Vaswani et al., 2017). It was built to understand the fundamentals of Large Language Models (LLMs), specifically:
 * **Multi-Head Self-Attention** mechanism
