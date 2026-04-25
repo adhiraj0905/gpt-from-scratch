@@ -1,6 +1,6 @@
 # Plato-GPT 🏛️
 
-A decoder-only Transformer model trained from scratch on the philosophical works of Plato. This project implements a Generative Pre-trained Transformer (GPT) using PyTorch and CUDA, capable of generating original philosophical text in the style of the ancient Greek philosopher.
+A decoder-only Transformer model trained from scratch on the philosophical works of Plato. This project implements a Generative Pre-trained Transformer (GPT) using PyTorch and CUDA, capable of generating original philosophical text in the style of the ancient Greek philosopher. Optimized hyperparameters to achieve a cross-entropy loss of 1.30 on the validation set after 5,000 training iterations.
 
 
 ## 🧠 Project Overview
