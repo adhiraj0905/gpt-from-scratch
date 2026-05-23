@@ -11,6 +11,8 @@ This model is a character-level language model based on the architecture describ
 * **Positional Embeddings** & **Residual Connections**
 * **Training on Custom Datasets**
 
+Working on this project has given me a strong grasp on these concepts.
+
 ### 📈 Training Performance
 *Validation loss dropping to 1.3034 over 5000 steps:*
 ![Loss Curve](loss_curve.png)
